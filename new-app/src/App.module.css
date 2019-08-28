@@ -6,7 +6,7 @@ html {
   font-size: 16px;
 }
 
-.app__wrapper {
+.wrapper {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -19,4 +19,11 @@ html {
   -ms-flex-wrap: wrap;
   -o-flex-wrap: wrap;
   flex-wrap: wrap;
+}
+
+.main_container {
+  flex-basis: 77%;
+}
+.main_container > section {
+  width: 100%;
 }
