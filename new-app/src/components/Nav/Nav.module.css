@@ -1,0 +1,15 @@
+.container {
+  flex-basis: 19%;
+  background-color: orange;
+  padding-left: 1%;
+  height: 130vh;
+}
+.list {
+  list-style-type: none;
+  margin: 0;
+  padding: 5% 0 10% 0;
+}
+.container a {
+  font-size: 1.5rem;
+  color: #fff;
+}

@@ -1,0 +1,10 @@
+.header {
+  flex-basis: 100%;
+  margin: 1% 0%;
+  background-color: orange;
+  color: #000;
+  padding: 1%;
+}
+.header > img {
+  width: 5%;
+}
