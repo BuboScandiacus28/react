@@ -13,3 +13,7 @@
   font-size: 1.5rem;
   color: #fff;
 }
+.container a.active {
+  opacity: 0.5;
+  color: #A65F00;
+}

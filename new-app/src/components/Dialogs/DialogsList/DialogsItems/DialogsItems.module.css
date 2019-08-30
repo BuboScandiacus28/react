@@ -1,0 +1,21 @@
+.title_container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-start;
+	height: 8vh;
+	-ms-align-items: center;
+	align-items: center;
+}
+
+.dots {
+	width: 10px;
+	height: 10px;
+}
+
+.title {
+	padding-left: 20px;
+	margin: 0;
+}

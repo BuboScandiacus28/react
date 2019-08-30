@@ -1,0 +1,10 @@
+.list_container {
+	flex-basis: 25%;
+}
+
+.list {
+	list-style-type: none;
+	padding: 5px;
+	margin: 0;
+}
+

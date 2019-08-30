@@ -1,0 +1,17 @@
+.main_container {
+	margin-bottom: 50px;
+}
+
+.content {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.message_container {
+	flex-basis: 70%;
+	margin-top: 15px;
+}
