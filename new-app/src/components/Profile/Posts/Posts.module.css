@@ -42,9 +42,12 @@
 }      
 .form_send {
   margin-top: 2%;
+  margin-right: 0;
+  flex-basis: 20%;
   background-color: orange;
   border: 0px;
-  padding: 0.5% 10% 0.5% 2%;
+  padding: 0.5% 0 0.5% 2%;
+  text-align: left;
   color: #fff;
   font-size: 1.5rem;
 }

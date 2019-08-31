@@ -8,17 +8,17 @@ import News 									from './components/News/News.jsx';
 import style 									from './App.module.css';
 import {BrowserRouter, Route} from 'react-router-dom';
 
-function App() {
+function App(props) {
 	return (
 		<BrowserRouter>
 			<div className = {style.wrapper}>
 				<Header />
-				<Nav />
+				<Nav state = {props.state.navPage} />
 				<main className = {style.main_container}>
-					<Route path="/dialogs" component = {Dialogs} />
-					<Route path="/profile" component = {Profile} />
-					<Route path="/news" component = {News} />
-					<Route path="/music" component = {Music} />
+					<Route path="/dialogs" render = {() => <Dialogs state = {props.state.dialogsPage} />} />
+					<Route path="/profile" render = {() => <Profile state = {props.state.profilePage} />} />
+					<Route path="/news" render = {() => <News />} />
+					<Route path="/music" render = {() => <Music />} />
 				</main>
 			</div>
 		</BrowserRouter>

@@ -2,6 +2,10 @@
 	margin-bottom: 50px;
 }
 
+.name_section {
+	font-size: 2rem;
+}
+
 .content {
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -9,6 +13,16 @@
 	display: -o-flex;
 	display: flex;
 	justify-content: space-between;
+}
+
+.list_container {
+	flex-basis: 25%;
+}
+
+.list {
+	list-style-type: none;
+	padding: 5px;
+	margin: 0;
 }
 
 .message_container {

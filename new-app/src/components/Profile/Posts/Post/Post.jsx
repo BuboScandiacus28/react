@@ -8,6 +8,7 @@ const Post = (props) => {
 				<circle fill = "orange" r = "29" cx = "29" cy = "29" />
 			</svg>
 			<p className = {style.text}>{props.message}</p>
+			<a href="#" className={style.like}>Like: {props.likeCount}</a>
 		</div>
 	);
 }
